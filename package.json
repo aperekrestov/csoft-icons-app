@@ -1,6 +1,10 @@
 {
-  "name": "csoft-icons",
-  "version": "0.1.0",
+  "name": "csoft-icons-app",
+  "version": "1.0.0",
+  "description": "Пользовательское мультиплатформенное приложение",
+  "main": "main.js",
+  "author": "Perekrestov Alexey",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "classnames": "^2.3.2",
@@ -14,7 +18,7 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "start": "react-app-rewired start",
+	"start": "electron .",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-app-rewired build",
@@ -40,7 +44,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.0",
+    "electron": "^29.1.0",
     "react-app-rewire-alias": "^1.1.7",
     "react-app-rewired": "^2.2.1"
   }
