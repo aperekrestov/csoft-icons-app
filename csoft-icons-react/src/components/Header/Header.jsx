@@ -6,7 +6,8 @@ import Context from '@context/context'
 import cn from 'classnames'
 import styles from './Header.module.css'
 
-import logoImg from '@assets/vector-graphics/logo-light.svg'
+import logoImg from '../../assets/vector-graphics/logo-light.svg'
+// import logoImg from '@assets/vector-graphics/logo-light.svg'
 
 const Header = ({ searchText = '' }) => {
 	const value = useContext(Context)
